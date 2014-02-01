@@ -134,15 +134,20 @@ header>h1 {
     text-transform: uppercase;
 }
 
-.images header>h1 {
+.kl-images header>h1 {
     font-family: serif;
 }
-.images header>h1>span:first-child {
+.kl-images header>h1>span:first-child {
     display: block;
     text-transform: uppercase;
 }
-.images header>h1>span:last-child {
+.kl-images header>h1>span:last-child {
     text-transform: lowercase;
+}
+.kl-social svg {
+    margin:0 auto;
+    position:relative;
+    top: -34px;
 }
 
 .splash {
@@ -164,7 +169,7 @@ header>h1 {
     font-size: 150%;
 }
 
-.content .content-subhead {
+.kl-content-subhead {
     color: #999;
     padding-bottom: 0.3em;
     text-transform: uppercase;
@@ -173,7 +178,7 @@ header>h1 {
     display: inline-block;
 }
 
-.content .content-ribbon {
+.kl-content-ribbon {
     margin: 3em;
     border-bottom: 1px dotted #8F1A60;
 }
