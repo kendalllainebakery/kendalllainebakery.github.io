@@ -32,7 +32,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header class="kl-header kl-content-ribbon">
+        <header class="kl-header">
             <div class="pure-g-r">
                 <svg class="pure-u" width="264.15" height="77.05" viewBox="0 0 264.15 77.05" preserveAspectRatio="none">
                     <g id="g3007" transform="matrix(0.99999895,0,0,1,-505.45397,-33.267)">
@@ -58,8 +58,8 @@
                 <h1 class="pure-u"><span>Kendall Laine</span> <span>Bakery</span></h1>
             </header>
         </header>
-        <div class="kl-content">
-            <div class="kl-images pure-g-r">
+        <article class="kl-content">
+            <section class="kl-images pure-g-r">
                 <div class="pure-u-1-2">
                     <header>
                         <h1><span>Traditional</span> <span>Cake Balls</span></h1>
@@ -72,8 +72,8 @@
                     </header>
                     <img alt="Specialty Cake Balls" height="100px" width="100px" />
                 </div>
-            </div>
-            <div class="kl-social pure-g-r">
+            </section>
+            <section class="kl-social pure-g-r">
                 <svg class="pure-u" height="34" width="34" viewbox="0 0 34 34" preserveAspectRatio="xMidYMid">
                     <g id="g3018">
                         <path d="m 15.34,29.972 v -13.674 h -3.263 v -4.096 h 3.263 v -2.225 c 0,-3.293 1.616,-5.393 5.601,-5.393 0.865,0 1.759,0.102 2.582,0.137 v 3.642 c -0.582,-0.067 -1.17,-0.1 -1.785,-0.1 -1.306,0 -1.86,0.551 -1.86,2.03 v 1.908 h 3.371 v 4.096 h -3.371 v 12.875 c 5.887,-2.025 10.122,-7.598 10.122,-14.172 0,-8.285 -6.716,-15 -15,-15 -8.284,0 -15,6.715 -15,15 0,8.283 6.716,15 15,15"
@@ -81,20 +81,48 @@
                               style="fill:#8f1a60" />
                     </g>
                 </svg>
-            </div>
-            <div class="splash pure-g-r">
-                <header class="kl-content-ribbon">
-                    <h1>Pricing &amp; Ordering</h1>
+            </section>
+            <section class="kl-pricing kl-splash">
+                <header class="pure-g-r">
+                    <h1 class="pure-u">Pricing &amp; Ordering</h1>
                 </header>
-                <span class="info">$.85 each | $10 per dozen</span>
-                <span class="info">512.789.4867</span> or <a href="#contact">Contact Form</a>
-                <span class="notice">All cake balls can be turned into cake pops upon request. Please note, we cannot ship any order.</span>
-                <span class="notice">Costs may vary. All products may come in contact with allergens.</span>
-            </div>
-            <div>
-
-            </div>
-        </div>
+                <p class="info pure-g-r pure-u">$.85 each | $10 per dozen</p>
+                <p class="pure-g-r pure-u"><span class="info">512.789.4867</span> or <a href="#contact">Contact Form</a></p>
+                <span class="notice pure-g-r pure-u">All cake balls can be turned into cake pops upon request. Please note, we cannot ship any order.</span>
+                <span class="notice pure-g-r pure-u">Costs may vary. All products may come in contact with allergens.</span>
+            </section>
+            <section>
+                <div class="pure-g-r"><blockquote class="pure-u">I love baking. I love cake balls. Kendall Laine Bakery is the result.</blockquote></div>
+                <div class="pure-g-r"><p class="pure-u"><span>Kendall</span> | <span>Head Baker</span></p></div>
+                <div class="pure-g-r"><p class="pure-u">My name is Kendall. I have loved baking since I could remember and enjoy the creativity each new order inspires. Every cake ball is made by hand from start to finish. Let me help make your next celebration a delicious one!</p></div>
+            </section>
+            <section id="contact" class="kl-contact kl-splash">
+                <header class="pure-g-r">
+                    <h1 class="pure-u">Contact</h1>
+                </header>
+                <div class="pure-g-r">
+                    <p class="pure-u">
+                        <span>Fill out the form</span>
+                        or
+                        <span>Call direct at 512.789.4867</span>
+                    </p>
+                </div>
+                <form action="mailto:info@kendalllaine.com" method="get" enctype="text/plain" class="pure-g-r">
+                    <div class="pure-u-1-2">
+                        <input name="name" type="text" placeholder="Name:" /><br />
+                        <input name="email" type="email" placeholder="Email:" /><br />
+                        <input name="phone" type="text" placeholder="Phone:" />
+                    </div>
+                    <div class="pure-u-1-2">
+                        <textarea name="message" placeholder="Message:"></textarea><br />
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </section>
+        </article>
+        <footer>
+            <p>&copy;2013-2014 Kendall Laine Bakery. All rights reserved.</p>
+        </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
