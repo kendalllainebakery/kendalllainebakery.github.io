@@ -20,7 +20,7 @@ textarea {
 
 html {
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.4em;
 }
 
 /*
@@ -113,93 +113,85 @@ header {
     margin: 0 0;
 }
 header>h1 {
-    color: #493728;
     margin: 0 auto;
     text-align: center;
 }
 
-.kl-header svg {
-    margin: 0 auto;
+.kl-header {
+    border-bottom: 1px dotted #8F1A60;
+    margin: 1.2em;
 }
-
-.kl-header>header>h1 {
-    line-height: 1.7em;
-}
-.kl-header>header>h1>span:first-child {
-    display: block;
-    font-family: serif;
-    font-size: 2.2em;
-}
-.kl-header>header>h1>span:last-child {
-    text-transform: uppercase;
-}
+    .kl-header svg {
+        margin: 0 auto;
+    }
+    .kl-header>header>h1 {
+        color: #493728;
+        line-height: 1.7em;
+    }
+        .kl-header>header>h1>span:first-child {
+            display: block;
+            font-family: serif;
+            font-size: 2.2em;
+        }
+        .kl-header>header>h1>span:last-child {
+            text-transform: uppercase;
+        }
 
 .kl-images header>h1 {
-    font-family: serif;
+    color: #493728;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.kl-images header>h1>span:first-child {
-    display: block;
-    text-transform: uppercase;
-}
-.kl-images header>h1>span:last-child {
-    text-transform: lowercase;
-}
+    .kl-images header>h1>span:first-child {
+        display: block;
+        text-transform: uppercase;
+    }
+    .kl-images header>h1>span:last-child {
+        text-transform: lowercase;
+    }
+
 .kl-social svg {
     margin:0 auto;
     position:relative;
     top: -34px;
 }
 
-.splash {
-    margin: 2em auto 0;
-    padding: 3em 0.5em;
-    background: #eee;
+.kl-splash {
+    color: #eee;
+    margin: 1.2em auto 0;
+    padding: 1.2em 0.5em;
 }
-.splash .splash-head {
-    font-size: 300%;
-    margin: 0em 0;
-    line-height: 1.2em;
-}
-.splash .splash-subhead {
-    color: #999;
-    font-weight: 300;
-    line-height: 1.4em;
-}
-.splash .primary-button {
-    font-size: 150%;
+    .kl-splash>header {
+        border-bottom: 1px dotted #eee;
+        padding: 1.2em;
+        text-transform: uppercase;
+    }
+
+.kl-pricing {
+    background-color: #8f1a60;
 }
 
-.kl-content-subhead {
-    color: #999;
-    padding-bottom: 0.3em;
-    text-transform: uppercase;
-    margin: 0;
-    border-bottom: 2px solid #eee;
-    display: inline-block;
+.kl-contact {
+    background-color: #493728;
 }
-
-.kl-content-ribbon {
-    margin: 3em;
-    border-bottom: 1px dotted #8F1A60;
-}
-
-.ribbon {
-    background: #eee;
-    text-align: center;
-    padding: 2em;
-    color: #999;
-}
-.ribbon h2 {
-    display: inline;
-    font-weight: normal;
-}
+    .kl-contact>div>p {
+        text-align: center;
+        width: 100%;
+    }
+        .kl-contact>div>p>span:first-child,
+        .kl-contact>div>p>span:last-child {
+            text-transform: uppercase;
+        }
+    .kl-contact>form {
+        margin:0 auto;
+    }
 
 footer {
-    background: #111;
-    color: #666;
+    background: #8f1a60;
+    color: #cb90ab;
+    font-size: 0.8em;
+    line-height: 0.8em;
+    padding: 0.1em;
     text-align: center;
-    padding: 1em;
-    font-size: 80%;
 }
 
 
