@@ -118,24 +118,15 @@ header>h1 {
 }
 
 .kl-header {
-    border-bottom: 1px dotted #8F1A60;
+    border-bottom: 2px dotted #8F1A60;
+    padding-bottom: 20px;
     margin: 1.2em;
 }
     .kl-header svg {
         margin: 0 auto;
     }
-    .kl-header>header>h1 {
-        color: #493728;
-        line-height: 1.7em;
-    }
-        .kl-header>header>h1>span:first-child {
-            display: block;
-            font-family: serif;
-            font-size: 2.2em;
-        }
-        .kl-header>header>h1>span:last-child {
-            text-transform: uppercase;
-        }
+        .kl-header svg g path { fill: #493728; }
+        .kl-header svg g>#apron>path { fill: #8f1a60; }
 
 .kl-images header>h1 {
     color: #493728;
@@ -161,7 +152,7 @@ header>h1 {
     padding: 1.2em 0.5em;
 }
     .kl-splash>header {
-        border-bottom: 1px dotted #eee;
+        border-bottom: 2px dotted #eee;
         padding: 1.2em;
         text-transform: uppercase;
     }
