@@ -110,11 +110,14 @@ body {
 }
 
 header {
+    border-bottom: 2px dotted #eee;
     margin: 0 0;
+    padding: 1.2em;
 }
 header>h1 {
     margin: 0 auto;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .kl-header {
@@ -126,19 +129,19 @@ header>h1 {
         margin: 0 auto;
     }
         .kl-header svg g path { fill: #493728; }
-        .kl-header svg g>#apron>path { fill: #8f1a60; }
 
-.kl-images header>h1 {
-    color: #493728;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-    .kl-images header>h1>span:first-child {
-        display: block;
-        text-transform: uppercase;
+.kl-images header { border: none; }
+    .kl-images header>h1 {
+        color: #493728;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
-    .kl-images header>h1>span:last-child {
-        text-transform: lowercase;
-    }
+        .kl-images header>h1>span:first-child {
+            display: block;
+            text-transform: uppercase;
+        }
+        .kl-images header>h1>span:last-child {
+            text-transform: lowercase;
+        }
 
 .kl-social svg {
     margin:0 auto;
@@ -151,11 +154,6 @@ header>h1 {
     margin: 1.2em auto 0;
     padding: 1.2em 0.5em;
 }
-    .kl-splash>header {
-        border-bottom: 2px dotted #eee;
-        padding: 1.2em;
-        text-transform: uppercase;
-    }
 
 .kl-pricing {
     background-color: #8f1a60;
@@ -172,9 +170,11 @@ header>h1 {
         .kl-contact>div>p>span:last-child {
             text-transform: uppercase;
         }
-    .kl-contact>form {
-        margin:0 auto;
-    }
+
+/**
+ * Define colors for special features
+ */
+svg g.kl-logo-apron, svg g.kl-social-icon { fill: #8f1a60; }
 
 footer {
     background: #8f1a60;
