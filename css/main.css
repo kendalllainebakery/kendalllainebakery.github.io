@@ -120,10 +120,28 @@ header>h1 {
     text-transform: uppercase;
 }
 
+.pure-g,
+.pure-g-r {
+    margin: 0 auto;
+    max-width: 47em;
+}
+.pure-g > div,
+.pure-g > svg,
+.pure-g-r > div,
+.pure-g-r > svg {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.l-box {
+    padding: 0.5em;
+}
+
 .kl-header {
     border-bottom: 2px dotted #8F1A60;
     padding-bottom: 20px;
-    margin: 1.2em;
+    margin: 1.2em auto 0;
+    max-width: 47em;
 }
     .kl-header svg {
         margin: 0 auto;
@@ -151,13 +169,35 @@ header>h1 {
 
 .kl-splash {
     color: #eee;
-    margin: 1.2em auto 0;
     padding: 1.2em 0.5em;
 }
 
 .kl-pricing {
     background-color: #8f1a60;
+    text-align: center;
 }
+    .kl-pricing a:active,
+    .kl-pricing a:focus,
+    .kl-pricing a:hover,
+    .kl-pricing a:link,
+    .kl-pricing a:visited {
+        color: #eee;
+    }
+
+.kl-quote {
+    color: #8f1a60;
+    text-align: center;
+}
+    .kl-quote blockquote {
+        font-size: 2em;
+        line-height: 1.6em;
+    }
+    .kl-quote p>span:first-child {
+        text-transform: uppercase;
+    }
+    .kl-quote p>span:last-child {
+        text-transform: lowercase;
+    }
 
 .kl-contact {
     background-color: #493728;
@@ -170,6 +210,9 @@ header>h1 {
         .kl-contact>div>p>span:last-child {
             text-transform: uppercase;
         }
+    .kl-contact textarea {
+        resize: vertical;
+    }
 
 /**
  * Define colors for special features
