@@ -70,13 +70,13 @@
         </header>
         <article class="kl-content">
             <section class="kl-images pure-g-r">
-                <div class="pure-u-1-2">
+                <div class="pure-u-1-2 l-box">
                     <header>
                         <h1><span>Traditional</span> <span>Cake Balls</span></h1>
                     </header>
                     <img alt="Traditional Cake Balls" height="100px" width="100px" />
                 </div>
-                <div class="pure-u-1-2">
+                <div class="pure-u-1-2 l-box">
                     <header>
                         <h1><span>Specialty</span> <span>Cake Balls</span></h1>
                     </header>
@@ -90,44 +90,46 @@
                     </g>
                 </svg>
             </section>
-            <section class="kl-pricing kl-splash pure-g-r">
-                <div class="pure-u">
-                    <header>
-                        <h1>Pricing &amp; Ordering</h1>
-                    </header>
-                    <p class="info">$.85 each | $10 per dozen</p>
-                    <p><span class="info">512.789.4867</span> or <a href="#contact">Contact Form</a></p>
-                    <span class="notice">All cake balls can be turned into cake pops upon request. Please note, we cannot ship any order.</span>
-                    <span class="notice">Costs may vary. All products may come in contact with allergens.</span>
+            <section class="kl-pricing kl-splash">
+                <div class="pure-g-r">
+                    <div class="pure-u l-box">
+                        <header>
+                            <h1>Pricing &amp; Ordering</h1>
+                        </header>
+                        <p class="info">$.85 each | $10 per dozen</p>
+                        <p><span class="info">512.789.4867</span> or <a href="#contact">Contact Form</a></p>
+                        <span class="notice">All cake balls can be turned into cake pops upon request. Please note, we cannot ship any order.</span>
+                        <span class="notice">Costs may vary. All products may come in contact with allergens.</span>
+                    </div>
                 </div>
             </section>
-            <section class="pure-g-r">
-                <div class="pure-u">
-                    <blockquote>I love baking. I love cake balls. Kendall Laine Bakery is the result.</blockquote>
+            <section class="kl-quote pure-g-r">
+                <div class="pure-u l-box">
+                    <blockquote>&ldquo;I love baking. I love cake balls. Kendall Laine Bakery is the result.&rdquo;</blockquote>
                     <p><span>Kendall</span> | <span>Head Baker</span></p>
                     <p>My name is Kendall. I have loved baking since I could remember and enjoy the creativity each new order inspires. Every cake ball is made by hand from start to finish. Let me help make your next celebration a delicious one!</p>
                 </div>
             </section>
             <section id="contact" class="kl-contact kl-splash">
                 <header class="pure-g-r">
-                    <h1 class="pure-u">Contact</h1>
+                    <h1 class="pure-u l-box">Contact</h1>
                 </header>
                 <div class="pure-g-r">
-                    <p class="pure-u">
+                    <p class="pure-u l-box">
                         <span>Fill out the form</span>
                         or
                         <span>Call direct at 512.789.4867</span>
                     </p>
                 </div>
-                <form action="mailto:info@kendalllaine.com" method="get" enctype="text/plain" class="pure-g-r pure-form">
-                    <div class="pure-u-1-2">
-                        <input name="name" type="text" placeholder="Name:" /><br />
-                        <input name="email" type="email" placeholder="Email:" /><br />
-                        <input name="phone" type="text" placeholder="Phone:" />
+                <form action="mailto:info@kendalllaine.com" method="get" enctype="text/plain" class="pure-g-r pure-form pure-form-stacked">
+                    <div class="pure-u-1-2 l-box">
+                        <input class="pure-input-1" name="name" type="text" placeholder="Name:" required /><br />
+                        <input class="pure-input-1" name="email" type="email" placeholder="Email:" required /><br />
+                        <input class="pure-input-1" name="phone" type="text" placeholder="Phone:" />
                     </div>
-                    <div class="pure-u-1-2">
-                        <textarea name="message" placeholder="Message:"></textarea><br />
-                        <button type="submit">Send</button>
+                    <div class="pure-u-1-2 l-box">
+                        <textarea class="pure-input-1" name="message" placeholder="Message:" required></textarea><br />
+                        <button class="pure-button pure-button-primary" type="submit">Send</button>
                     </div>
                 </form>
             </section>
