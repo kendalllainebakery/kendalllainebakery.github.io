@@ -147,6 +147,7 @@ header>h1 {
         margin: 0 auto;
     }
         .kl-header svg g path { fill: #493728; }
+        .kl-header svg g.kl-logo-apron path { fill: #8f1a60; }
 
 .kl-images header { border: none; }
     .kl-images header>h1 {
