@@ -172,18 +172,18 @@ header>h1 {
     color: #eee;
     padding: 1.2em 0.5em;
 }
+    .kl-splash a:active,
+    .kl-splash a:focus,
+    .kl-splash a:hover,
+    .kl-splash a:link,
+    .kl-splash a:visited {
+        color: #eee;
+    }
 
 .kl-pricing {
     background-color: #8f1a60;
     text-align: center;
 }
-    .kl-pricing a:active,
-    .kl-pricing a:focus,
-    .kl-pricing a:hover,
-    .kl-pricing a:link,
-    .kl-pricing a:visited {
-        color: #eee;
-    }
 
 .kl-quote {
     color: #8f1a60;
