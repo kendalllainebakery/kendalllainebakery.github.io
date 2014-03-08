@@ -166,7 +166,9 @@ header>h1 {
         .kl-header svg g.kl-logo-apron path { fill: #8f1a60; }
 
 .kl-rollover {
+    border-radius: 50%;
     color: white;
+    font-weight: 300;
     height: 280px;
     margin: 0 auto;
     padding: 2em 0;
