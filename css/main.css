@@ -171,15 +171,12 @@ header>h1 {
     }
         .kl-images header>h1>span:first-child {
             display: block;
-            font-weight: 400;
             text-transform: uppercase;
         }
         .kl-images header>h1>span:last-child {
-            font-family: 'Volkhov', serif;
             font-size: 0.8em;
-            font-style: italic;
-            font-weight: 700;
-            text-transform: lowercase;
+            position: relative;
+            top: -0.5em;
         }
 
 .kl-social svg {
@@ -209,14 +206,25 @@ header>h1 {
     }
 .kl-important {
     font-weight: 900;
+    text-transform: uppercase;
 }
 .kl-emphasis {
     font-family: 'Volkhov', serif;
     font-style: italic;
+    text-transform: lowercase;
 }
 .kl-notice {
-    font-size: 0.8em;
+    font-family: 'Volkhov', serif;
+    font-size: 0.6em;
+    font-style: italic;
 }
+.kl-split {
+    word-spacing: 1em;
+}
+    .kl-split>span {
+        word-spacing: normal;
+    }
+
 
 .kl-quote {
     color: #8f1a60;
@@ -224,27 +232,21 @@ header>h1 {
 }
     .kl-quote blockquote {
         font-size: 2em;
+        font-weight: 300;
         margin: 0.4em;
     }
-    .kl-quote p>span:first-child {
-        padding-right: 1em;
-        text-transform: uppercase;
-    }
-    .kl-quote p>span:last-child {
-        padding-left: 1em;
-        text-transform: lowercase;
-    }
-
 .kl-contact {
     background-color: #493728;
 }
     .kl-contact>div>p {
         text-align: center;
         width: 100%;
+        word-spacing: 1em;
     }
         .kl-contact>div>p>span:first-child,
         .kl-contact>div>p>span:last-child {
             text-transform: uppercase;
+            word-spacing: 0.2em;
         }
     .kl-contact>.pure-form input {
         margin-bottom: 1.2em;
