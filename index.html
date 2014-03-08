@@ -150,15 +150,17 @@
                         <span class="kl-important">Call direct at 512.789.4867</span>
                     </p>
                 </div>
-                <form action="mailto:info@kendalllaine.com" method="get" enctype="text/plain" class="pure-g-r pure-form pure-form-stacked">
+                <form action="/gdform.php" method="post" class="pure-g-r pure-form pure-form-stacked">
                     <div class="pure-u-1-2 l-box">
+                        <input type="hidden" name="subject" value="Message from KendallLaine.com" />
+                        <input type="hidden" name="redirect" value="/index.html#thank-you" />
                         <input class="pure-input-1" name="name" type="text" placeholder="Name:" required />
                         <input class="pure-input-1" name="email" type="email" placeholder="Email:" required />
                         <input class="pure-input-1" name="phone" type="text" placeholder="Phone:" />
                     </div>
                     <div class="pure-u-1-2 l-box">
                         <textarea class="pure-input-1" name="message" placeholder="Message:" required></textarea>
-                        <button class="pure-button kl-contact-button" type="submit">Send</button>
+                        <button class="pure-button kl-contact-button" name="submit" type="submit" value="submit">Send</button>
                     </div>
                 </form>
             </section>
