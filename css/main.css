@@ -165,6 +165,23 @@ header>h1 {
         .kl-header svg g path { fill: #493728; }
         .kl-header svg g.kl-logo-apron path { fill: #8f1a60; }
 
+.kl-rollover {
+    color: white;
+    height: 280px;
+    margin: 0 auto;
+    padding: 2em 0;
+    width: 280px;
+}
+    .kl-rollover>ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    .kl-rollover .kl-notice {
+        font-size: 0.6em;
+        padding: 0 5em;
+        text-align: center;
+    }
 .kl-images header { border: none; }
     .kl-images header>h1 {
         color: #493728;
@@ -178,6 +195,22 @@ header>h1 {
             position: relative;
             top: -0.5em;
         }
+.kl-images>div:first-child .kl-rollover {
+    background: url("/img/traditional.png") no-repeat center;
+    text-indent: -99999px;
+}
+    .kl-images>div:first-child .kl-rollover:hover {
+        background: #493728 0 0;
+        text-indent: 0;
+    }
+.kl-images>div:last-child .kl-rollover {
+    background: url("/img/specialty.png") no-repeat center;
+    text-indent: -99999px;
+}
+    .kl-images>div:last-child .kl-rollover:hover {
+        background: #8f1a60 0 0;
+        text-indent: 0;
+    }
 
 .kl-social svg {
     margin:0 auto;
