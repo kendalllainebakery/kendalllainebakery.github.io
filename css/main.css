@@ -128,11 +128,12 @@ body {
 
 header {
     border-bottom: 2px dotted #eee;
+    text-align: center;
+    width: 100%;
 }
 header>h1 {
     font-weight: 300;
     margin: 0 auto;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -142,9 +143,7 @@ header>h1 {
     max-width: 40em;
 }
 .pure-g > div,
-.pure-g > svg,
-.pure-g-r > div,
-.pure-g-r > svg {
+.pure-g-r > div {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -223,9 +222,9 @@ header>h1 {
             background: #8f1a60 0 0;
         }
 
-.kl-social a {
-    display: block;
-    margin: 0 auto;
+.kl-social div {
+    text-align: center;
+    width: 100%;
 }
 
 .kl-splash {
@@ -340,6 +339,11 @@ footer {
     .kl-social a {
         position:relative;
         top: -34px;
+    }
+    .kl-quote {
+        display: block;
+        display: -webkit-flex;
+        -webkit-flex-flow: row wrap;
     }
 }
 
