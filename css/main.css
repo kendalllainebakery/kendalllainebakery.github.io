@@ -96,230 +96,232 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-@media only screen and (min-width: 320px) {
-    * {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
-    /* ==========================================================================
-    When setting the primary font stack, apply it to the Pure grid units along
-    with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
-    specific font stacks to ensure the greatest OS/browser compatibility.
-       ========================================================================== */
-    html, button, input, select, textarea,
-    .pure-g [class *= "pure-u"],
-    .pure-g-r [class *= "pure-u"] {
-        /* Set your content font stack here: */
-        font-family: 'Lato', sans-serif;
-    }
+/* ==========================================================================
+When setting the primary font stack, apply it to the Pure grid units along
+with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
+specific font stacks to ensure the greatest OS/browser compatibility.
+   ========================================================================== */
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Lato', sans-serif;
+}
 
-    html em,
-    .pure-g [class *= "pure-u"] em,
-    .pure-g-r [class *= "pure-u"] em {
-        /* Set your content font stack here: */
-        font-family: 'Volkhov', serif;
-    }
+html em,
+.pure-g [class *= "pure-u"] em,
+.pure-g-r [class *= "pure-u"] em {
+    /* Set your content font stack here: */
+    font-family: 'Volkhov', serif;
+}
 
-    body {
-        border-top: 0.64em solid #8F1A60;
+body {
+    border-top: 0.64em solid #8F1A60;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 2px dotted #eee;
+}
+header>h1 {
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pure-g,
+.pure-g-r {
+    margin: 0 auto;
+    max-width: 40em;
+}
+.pure-g > div,
+.pure-g > svg,
+.pure-g-r > div,
+.pure-g-r > svg {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.l-box {
+    padding: 0.5em;
+}
+
+.kl-header {
+    border-bottom: 2px dotted #8F1A60;
+    padding: 1.2em 0 20px;
+    margin: 1.2em auto 0.8em;
+    max-width: 40em;
+}
+    .kl-header svg {
         margin: 0 auto;
     }
+        .kl-header svg g path { fill: #493728; }
+        .kl-header svg g.kl-logo-apron path { fill: #8f1a60; }
 
-    header {
-        border-bottom: 2px dotted #eee;
+.kl-rollover {
+    border-radius: 50%;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    font-weight: 300;
+    height: 280px;
+    margin: 0 auto;
+    padding: 2.2em 0;
+    text-indent: -99999px;
+    text-decoration: none;
+    width: 280px;
+}
+    .kl-rollover:active,
+    .kl-rollover:hover,
+    .kl-rollover:focus {
+        text-indent: 0;
     }
-    header>h1 {
-        font-weight: 300;
-        margin: 0 auto;
+    .kl-rollover>ul {
+        list-style: none;
+        padding: 0;
         text-align: center;
-        text-transform: uppercase;
     }
-
-    .pure-g,
-    .pure-g-r {
-        margin: 0 auto;
-        max-width: 40em;
+    .kl-rollover .kl-notice {
+        font-size: 0.6em;
+        padding: 0 4em;
+        text-align: center;
     }
-    .pure-g > div,
-    .pure-g > svg,
-    .pure-g-r > div,
-    .pure-g-r > svg {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
+.kl-images header { border: none; }
+    .kl-images header>h1 {
+        color: #493728;
     }
-    .l-box {
-        padding: 0.5em;
-    }
-
-    .kl-header {
-        border-bottom: 2px dotted #8F1A60;
-        padding: 1.2em 0 20px;
-        margin: 1.2em auto 0.8em;
-        max-width: 40em;
-    }
-        .kl-header svg {
-            margin: 0 auto;
+        .kl-images header>h1>span:first-child {
+            display: block;
+            text-transform: uppercase;
         }
-            .kl-header svg g path { fill: #493728; }
-            .kl-header svg g.kl-logo-apron path { fill: #8f1a60; }
-
-    .kl-rollover {
-        border-radius: 50%;
-        color: white;
-        font-size: 1.2em;
-        font-weight: 300;
-        height: 280px;
-        margin: 0 auto;
-        padding: 2.2em 0;
-        width: 280px;
-    }
-        .kl-rollover>ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
+        .kl-images header>h1>span:last-child {
+            font-size: 0.8em;
+            position: relative;
+            top: -0.5em;
         }
-        .kl-rollover .kl-notice {
-            font-size: 0.6em;
-            padding: 0 4em;
-            text-align: center;
-        }
-    .kl-images header { border: none; }
-        .kl-images header>h1 {
-            color: #493728;
-        }
-            .kl-images header>h1>span:first-child {
-                display: block;
-                text-transform: uppercase;
-            }
-            .kl-images header>h1>span:last-child {
-                font-size: 0.8em;
-                position: relative;
-                top: -0.5em;
-            }
     .kl-images>div:first-child .kl-rollover {
         background: url("/img/traditional.png") no-repeat center;
-        text-indent: -99999px;
     }
         .kl-images>div:first-child .kl-rollover:active,
         .kl-images>div:first-child .kl-rollover:hover,
         .kl-images>div:first-child .kl-rollover:focus {
             background: #493728 0 0;
-            text-indent: 0;
         }
     .kl-images>div:last-child .kl-rollover {
         background: url("/img/specialty.png") no-repeat center;
-        text-indent: -99999px;
     }
         .kl-images>div:last-child .kl-rollover:active,
         .kl-images>div:last-child .kl-rollover:hover,
         .kl-images>div:last-child .kl-rollover:focus {
             background: #8f1a60 0 0;
-            text-indent: 0;
         }
 
-    .kl-social a {
-        display: block;
-        margin: 0 auto;
-    }
+.kl-social a {
+    display: block;
+    margin: 0 auto;
+}
 
-    .kl-splash {
+.kl-splash {
+    color: #eee;
+    padding-bottom: 1em;
+}
+    .kl-splash a:active,
+    .kl-splash a:focus,
+    .kl-splash a:hover,
+    .kl-splash a:link,
+    .kl-splash a:visited {
         color: #eee;
-        padding-bottom: 1em;
     }
-        .kl-splash a:active,
-        .kl-splash a:focus,
-        .kl-splash a:hover,
-        .kl-splash a:link,
-        .kl-splash a:visited {
-            color: #eee;
-        }
 
-    .kl-pricing {
-        background-color: #8f1a60;
+.kl-pricing {
+    background-color: #8f1a60;
+    text-align: center;
+}
+    .kl-pricing .pure-u {
+        width: 100%;
+    }
+.kl-important {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.kl-emphasis {
+    font-family: 'Volkhov', serif;
+    font-style: italic;
+    text-transform: lowercase;
+}
+.kl-notice {
+    font-family: 'Volkhov', serif;
+    font-size: 0.8em;
+    font-style: italic;
+}
+.kl-split {
+    word-spacing: 1em;
+}
+    .kl-split>span {
+        word-spacing: normal;
+    }
+
+.kl-quote {
+    color: #8f1a60;
+    text-align: center;
+}
+    .kl-quote blockquote {
+        font-size: 2em;
+        font-weight: 300;
+        margin: 0.4em;
+    }
+
+.kl-contact {
+    background-color: #493728;
+}
+    .kl-contact>div>p {
         text-align: center;
-    }
-        .kl-pricing .pure-u {
-            width: 100%;
-        }
-    .kl-important {
-        font-weight: 900;
-        text-transform: uppercase;
-    }
-    .kl-emphasis {
-        font-family: 'Volkhov', serif;
-        font-style: italic;
-        text-transform: lowercase;
-    }
-    .kl-notice {
-        font-family: 'Volkhov', serif;
-        font-size: 0.8em;
-        font-style: italic;
-    }
-    .kl-split {
+        width: 100%;
         word-spacing: 1em;
     }
-        .kl-split>span {
-            word-spacing: normal;
+        .kl-contact>div>p>span:first-child,
+        .kl-contact>div>p>span:last-child {
+            text-transform: uppercase;
+            word-spacing: 0.2em;
         }
-
-    .kl-quote {
-        color: #8f1a60;
-        text-align: center;
+    .kl-contact>.pure-form .l-box {
+        padding: 0.5em;
     }
-        .kl-quote blockquote {
-            font-size: 2em;
-            font-weight: 300;
-            margin: 0.4em;
-        }
-
-    .kl-contact {
-        background-color: #493728;
+    .kl-contact>.pure-form input {
+        margin-bottom: 1.2em;
     }
-        .kl-contact>div>p {
-            text-align: center;
-            width: 100%;
-            word-spacing: 1em;
+        .kl-contact>.pure-form input:last-child {
+            margin-bottom: 0;
         }
-            .kl-contact>div>p>span:first-child,
-            .kl-contact>div>p>span:last-child {
-                text-transform: uppercase;
-                word-spacing: 0.2em;
-            }
-        .kl-contact>.pure-form .l-box {
-            padding: 0.5em;
-        }
-        .kl-contact>.pure-form input {
-            margin-bottom: 1.2em;
-        }
-            .kl-contact>.pure-form input:last-child {
-                margin-bottom: 0;
-            }
-        .kl-contact>.pure-form textarea {
-            min-height: 9.4em;
-        }
-    .kl-contact-button {
-        background-color: #8f1a60;
-        color: #fff;
-        float: right;
+    .kl-contact>.pure-form textarea {
+        min-height: 9.4em;
     }
+.kl-contact-button {
+    background-color: #8f1a60;
+    color: #fff;
+    float: right;
+}
 
-    /**
-     * Define colors for special features
-     */
-    svg g.kl-logo-apron, svg g.kl-social-icon { fill: #8f1a60; }
+/**
+ * Define colors for special features
+ */
+svg g.kl-logo-apron, svg g.kl-social-icon { fill: #8f1a60; }
 
-    footer {
-        background: #8f1a60;
-        clear: both;
-        color: #cb90ab;
-        font-size: 0.8em;
-        line-height: 0.8em;
-        padding: 0.1em;
-        text-align: center;
-    }
+footer {
+    background: #8f1a60;
+    clear: both;
+    color: #cb90ab;
+    font-size: 0.8em;
+    line-height: 0.8em;
+    padding: 0.1em;
+    text-align: center;
 }
 
 @media only screen and (min-width: 480px) {
