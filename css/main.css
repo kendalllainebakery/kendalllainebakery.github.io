@@ -203,6 +203,8 @@ textarea {
         background: url("/img/traditional.png") no-repeat center;
         text-indent: -99999px;
     }
+        .kl-images>div:first-child .kl-rollover:active,
+        .kl-images>div:first-child .kl-rollover:focus,
         .kl-images>div:first-child .kl-rollover:hover {
             background: #493728 0 0;
             text-indent: 0;
@@ -211,6 +213,8 @@ textarea {
         background: url("/img/specialty.png") no-repeat center;
         text-indent: -99999px;
     }
+        .kl-images>div:last-child .kl-rollover:active,
+        .kl-images>div:last-child .kl-rollover:focus,
         .kl-images>div:last-child .kl-rollover:hover {
             background: #8f1a60 0 0;
             text-indent: 0;
