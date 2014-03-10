@@ -173,14 +173,13 @@ header>h1 {
     height: 280px;
     margin: 0 auto;
     padding: 2.2em 0;
-    text-indent: -99999px;
     text-decoration: none;
     width: 280px;
 }
     .kl-rollover:active,
     .kl-rollover:hover,
     .kl-rollover:focus {
-        text-indent: 0;
+        text-indent: -99999px;
     }
     .kl-rollover>ul {
         list-style: none;
@@ -206,20 +205,20 @@ header>h1 {
             top: -0.5em;
         }
     .kl-images>div:first-child .kl-rollover {
-        background: url("/img/traditional.png") no-repeat center;
+        background: #493728 0 0;
     }
         .kl-images>div:first-child .kl-rollover:active,
         .kl-images>div:first-child .kl-rollover:hover,
         .kl-images>div:first-child .kl-rollover:focus {
-            background: #493728 0 0;
+            background: url("/img/traditional.png") no-repeat center;
         }
     .kl-images>div:last-child .kl-rollover {
-        background: url("/img/specialty.png") no-repeat center;
+        background: #8f1a60 0 0;
     }
         .kl-images>div:last-child .kl-rollover:active,
         .kl-images>div:last-child .kl-rollover:hover,
         .kl-images>div:last-child .kl-rollover:focus {
-            background: #8f1a60 0 0;
+            background: url("/img/specialty.png") no-repeat center;
         }
 
 .kl-social div {
