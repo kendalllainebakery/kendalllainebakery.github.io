@@ -154,7 +154,7 @@ header>h1 {
 
 .kl-header {
     border-bottom: 2px dotted #8F1A60;
-    padding: 1.2em 0 20px;
+    padding: 0 0 1em;
     margin: 1.2em auto 0.8em;
     max-width: 40em;
 }
@@ -228,7 +228,6 @@ header>h1 {
 
 .kl-splash {
     color: #eee;
-    padding-bottom: 1em;
 }
     .kl-splash a:active,
     .kl-splash a:focus,
@@ -278,6 +277,7 @@ header>h1 {
 
 .kl-contact {
     background-color: #493728;
+    padding-bottom: 1em;
 }
     .kl-contact>div>p {
         text-align: center;
@@ -326,19 +326,19 @@ footer {
     .l-box {
         padding: 0.5em 3em;
     }
-    .kl-header {
-        padding: 1.2em 1.2em 20px 1.2em;
-    }
     .kl-contact>.pure-form {
         padding: 0 3em;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .kl-social a {
-        position:relative;
-        top: -34px;
+    .kl-social div {
+        height: 1em;
     }
+        .kl-social div a {
+            position:relative;
+            top: -34px;
+        }
     .kl-quote {
         display: block;
         display: -webkit-flex;
