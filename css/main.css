@@ -140,7 +140,7 @@ header>h1 {
 .pure-g,
 .pure-g-r {
     margin: 0 auto;
-    max-width: 42em;
+    max-width: 44em;
 }
 .pure-g > div,
 .pure-g-r > div {
@@ -156,7 +156,7 @@ header>h1 {
     border-bottom: 2px dotted #8F1A60;
     padding: 0 0 1em;
     margin: 1.2em auto 0.8em;
-    max-width: 42em;
+    max-width: 44em;
 }
     .kl-header svg {
         margin: 0 auto;
@@ -176,6 +176,9 @@ header>h1 {
             font-size: 0.8em;
             position: relative;
             top: -0.5em;
+        }
+        .kl-images img {
+            margin: 0 auto;
         }
         .kl-images dl {
             text-align: center;
