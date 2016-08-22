@@ -187,15 +187,18 @@ header>h1 {
             .kl-images dl>dt {
                 font-size: 1.3em;
                 font-weight: 300;
-                padding: 0.2em 0 0 0;
+                padding: 0.1em 0 0 0;
             }
             .kl-images dl>dd {
                 font-family: 'Volkhov', serif;
                 font-size: 0.8em;
                 font-style: italic;
                 margin: 0;
-                padding-bottom: 0 0 0.2em 0;
+                padding: 0 0 0.1em 0;
             }
+        .kl-images p {
+            text-align: center;
+        }
 
 .kl-social div {
     text-align: center;
